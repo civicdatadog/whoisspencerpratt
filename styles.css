@@ -366,6 +366,25 @@ main {
   color: var(--accent-dark);
 }
 
+.provider {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 32px;
+  box-shadow: var(--shadow);
+}
+
+.provider-card {
+  border-top: 1px solid rgba(30, 32, 36, 0.12);
+  padding-top: 18px;
+  display: grid;
+  gap: 10px;
+}
+
+.provider-card .text-link {
+  display: inline-block;
+  margin-right: 14px;
+}
+
 .site-footer {
   padding: 40px clamp(20px, 4vw, 72px) 60px;
   display: grid;
